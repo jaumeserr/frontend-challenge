@@ -36,6 +36,7 @@ const StyledListItem = styled.li`
   padding: 20px 20px 20px 40px;
   color: white;
   font-weight: bold;
+  width: 220px;
   @media (max-width: 320px) {
     padding: 20px;
   } 
@@ -48,7 +49,7 @@ const StyledListItem = styled.li`
     @media (max-width: 320px) {
       display: none;
       padding-left: 0;
-    } 
+    }
   } 
 `
 
