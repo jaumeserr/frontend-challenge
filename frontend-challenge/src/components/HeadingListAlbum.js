@@ -1,0 +1,34 @@
+import styled from 'styled-components';
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
+
+const StyledHeading = styled.div`
+  display: flex;
+  align-items: center;
+`
+
+const StyledTitle = styled.p`
+  color: #cecedc;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 15px;
+`
+
+const StyledLine = styled.div`
+  background-color: #cecedc;
+  display: flex;
+  flex-grow: 1;
+  height: 2px;
+`
+
+const HeadingListAlbum = ({ title }) => {
+  return(
+    <StyledHeading>
+      <StyledTitle>{title}</StyledTitle>
+      <StyledLine></StyledLine>
+      <IoIosArrowBack style={{ color: '#5955d5'}}/>
+      <IoIosArrowForward style={{ color: '#5955d5'}}/>
+    </StyledHeading>
+  )
+}
+
+export default HeadingListAlbum;
