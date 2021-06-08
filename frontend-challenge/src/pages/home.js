@@ -8,11 +8,10 @@ import { Flex } from '../UI';
 
 const StyledHome = styled.main`
   border-radius: 10px;
-  margin: 10px;
+  margin: 20px;
   display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: white;
+  width: calc(100% - 260px);
+  height: 1000px;
 `
 
 const HomePage = () => {

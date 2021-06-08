@@ -58,7 +58,7 @@ const Navbar = () => {
     <StyledNavbar>
       <StyledAvatar>
         <img src={Avatar} alt='Avatar' />
-        <p>Name</p>
+        <p>Gaddex</p>
       </StyledAvatar>
       <ul>
         <StyledListItem>
