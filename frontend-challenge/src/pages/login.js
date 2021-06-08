@@ -1,18 +1,7 @@
 import styled from 'styled-components';
 import Logo from '../assets/Spotify-logo.png'
 
-const LoginPage = () => {
-  const {
-    REACT_APP_CLIENT_ID,
-    REACT_APP_AUTHORIZE_URL,
-    REACT_APP_REDIRECT_URL
-  } = process.env;
-
-  const handleLogin = () => {
-    window.location = `${REACT_APP_AUTHORIZE_URL}?client_id=${REACT_APP_CLIENT_ID}&redirect_uri=${REACT_APP_REDIRECT_URL}&response_type=token&show_dialog=true`;
-    window.location = '';
-  }
-
+const LoginPage = ({onclick}) => {
   const StyledLogin = styled.div`
     background-color: black;
     width: 100%;
@@ -46,7 +35,7 @@ const LoginPage = () => {
     <StyledLogin>
       <StyledLoginCard>
         <img src={Logo} alt="spotify"/>
-        <button onClick={handleLogin}>Authorize</button>
+        <button onClick={onclick}>Authorize</button>
       </StyledLoginCard>
     </StyledLogin>
   )

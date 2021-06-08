@@ -19,7 +19,6 @@ const PlayLists = () => {
 
   const hash = location.hash.split('&')
   const token = hash[0].substring(14)
-  console.log(token)
 
   const getSongs = async () => {
     const listReleased = await getNewReleasedSongs(token)
