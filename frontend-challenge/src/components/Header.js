@@ -10,7 +10,7 @@ const StyledHeader = styled.header`
   color: white;
   display: flex;
   flex-direction: column;
-  height: 250px;
+  height: 200px;
   justify-content: center;
   padding: 30px 50px 30px 30px;
   width: 100%;

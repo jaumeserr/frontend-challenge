@@ -1,6 +1,12 @@
+import styled from 'styled-components';
+
+const StyledPlayer = styled.div`
+  background-color: red;
+`
+
 const Player = () => {
   return(
-    <div>Player</div>
+    <StyledPlayer>Player</StyledPlayer>
   )
 }
 

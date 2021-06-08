@@ -25,8 +25,8 @@ const HeadingListAlbum = ({ title }) => {
     <StyledHeading>
       <StyledTitle>{title}</StyledTitle>
       <StyledLine></StyledLine>
-      <IoIosArrowBack style={{ color: '#5955d5'}}/>
-      <IoIosArrowForward style={{ color: '#5955d5'}}/>
+      <IoIosArrowBack style={{ marginLeft: '10px', color: '#5955d5', cursor: 'pointer' }} />
+      <IoIosArrowForward style={{ color: '#5955d5', cursor: 'pointer' }} />
     </StyledHeading>
   )
 }

@@ -15,11 +15,11 @@ const StyledCard = styled.div`
   }
 `
 
-const Card = (props) => {
+const Card = ({ image, name }) => {
   return(
     <StyledCard>
-      <img src={props.images[1].url} alt={props.name} />
-      <p>{props.name}</p>
+      <img src={image} alt={name} />
+      <p>{name}</p>
     </StyledCard>
   )
 }

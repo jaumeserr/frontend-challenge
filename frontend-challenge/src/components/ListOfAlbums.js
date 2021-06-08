@@ -1,7 +1,4 @@
 import styled from 'styled-components';
-
-import { useEffect, useState } from 'react'
-import newReleasesSongs from '../services/getSongs'
 import Card from './Card'
 
 const StyledListOfAlbums = styled.div`
@@ -11,33 +8,11 @@ const StyledListOfAlbums = styled.div`
   margin: 20px 0 40px 0;
 `
 
-const ListOfAlbums = () => {
-  const [albums, setAlbums] = useState()
-
-  const hash = window.location.hash.split('&')
-  const token = hash[0].substring(14)
-  console.log(token)
-
-  const songs = async () => {
-    const song = await newReleasesSongs(token)
-    setAlbums(song)
-  }
-  
-  useEffect(() => {
-    songs()
-  }, [])
-
-  console.log(albums)
-
+const ListOfAlbums = ({ albums }) => {
   return(
     <StyledListOfAlbums>
       {
-        albums && albums.map((album) => {
-          return(
-            <Card key={album.id} {...album} />
-          )
-        }
-        )
+        albums && albums.map((album) => <Card key={album.id} {...album} />)
       }
     </StyledListOfAlbums>
   );
