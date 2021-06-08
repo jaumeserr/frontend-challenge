@@ -27,8 +27,6 @@ const LoginPage = () => {
   useEffect(() => {
     songs()
   }, [])
-
-  console.log(albums)
   
   return (
     <>

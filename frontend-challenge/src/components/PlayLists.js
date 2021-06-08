@@ -1,19 +1,23 @@
 import styled from 'styled-components';
 import HeadingListAlbum from './HeadingListAlbum';
+import ListOfAlbums from './ListOfAlbums';
 
-const StyledListAlbums = styled.section`
+const StyledPlayLists = styled.section`
   height: 100%;
-  padding: 20px;
+  padding: 40px;
 `
 
-const ListAlbums = () => {
+const PlayLists = () => {
   return(
-    <StyledListAlbums>
+    <StyledPlayLists>
       <HeadingListAlbum title='Released this week'/>
+      <ListOfAlbums />
       <HeadingListAlbum title='Featured playlist'/>
+      <ListOfAlbums />
       <HeadingListAlbum title='Browse'/>
-    </StyledListAlbums>
+      <ListOfAlbums />
+    </StyledPlayLists>
   )
 }
 
-export default ListAlbums;
+export default PlayLists;
