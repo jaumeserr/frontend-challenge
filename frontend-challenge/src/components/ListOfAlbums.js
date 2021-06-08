@@ -3,7 +3,7 @@ import Card from './Card'
 
 const StyledListOfAlbums = styled.div`
   display: flex;
-  width: 1000px;
+  width: 100%;
   overflow: scroll;
   margin: 20px 0 40px 0;
 `

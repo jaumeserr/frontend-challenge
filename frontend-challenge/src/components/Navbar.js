@@ -23,6 +23,9 @@ const StyledAvatar = styled.div`
     width: 70px;
     border-radius: 50%;
     margin-bottom: 5px;
+    @media (max-width: 320px) {
+      width: 50px;
+    } 
   }
 `
 
@@ -33,12 +36,19 @@ const StyledListItem = styled.li`
   padding: 20px 20px 20px 40px;
   color: white;
   font-weight: bold;
+  @media (max-width: 320px) {
+    padding: 20px;
+  } 
   &:hover{
     background-color: violet;
     background: linear-gradient(to right, #7976da, #5854d5);
   }
   span {
     padding-left: 10px;
+    @media (max-width: 320px) {
+      display: none;
+      padding-left: 0;
+    } 
   } 
 `
 

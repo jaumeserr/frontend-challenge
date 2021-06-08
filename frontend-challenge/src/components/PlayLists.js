@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import { useLocation } from 'react-router-dom'
+
+import { getNewReleasedSongs, getFeaturedSongs, getCategories } from '../services/getSongs'
 import HeadingListAlbum from './HeadingListAlbum';
 import ListOfAlbums from './ListOfAlbums';
-import { getNewReleasedSongs, getFeaturedSongs, getCategories } from '../services/getSongs'
 
 const StyledPlayLists = styled.section`
   padding: 40px;
@@ -13,9 +15,9 @@ const PlayLists = () => {
   const [released, setReleased] = useState()
   const [featured, setFeatured] = useState()
   const [categories, setCategories] = useState()
+  const location = useLocation()
 
-
-  const hash = window.location.hash.split('&')
+  const hash = location.hash.split('&')
   const token = hash[0].substring(14)
   console.log(token)
 
@@ -30,6 +32,7 @@ const PlayLists = () => {
 
   useEffect(() => {
     getSongs();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []) 
 
   return(
