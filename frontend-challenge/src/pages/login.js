@@ -33,9 +33,9 @@ const LoginPage = () => {
   return (
     <>
       <div>Login Page</div>
-      {
+      {/* {
         albums.map((album) => console.log(album))
-      }
+      } */}
       <button onClick={handleLogin}>Authorize</button>
     </>
   )
