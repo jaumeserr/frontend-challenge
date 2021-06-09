@@ -2,11 +2,15 @@ import styled from 'styled-components';
 import Card from './Card'
 
 const StyledListOfAlbums = styled.div`
+  width: 100%;
   display: flex;
-  width: 200px;
-  overflow: scroll;
-  background-color: red;
-  /* margin: 20px 0 40px 0; */
+  overflow-x: scroll;
+  margin-bottom:  0px;
+  @media (max-width: 411px) {
+    width: 230px;
+    height: 220px;
+    flex-direction: column;
+  }
 `
 
 const ListOfAlbums = ({ albums }) => {

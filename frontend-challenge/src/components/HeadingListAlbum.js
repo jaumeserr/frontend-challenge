@@ -4,6 +4,11 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 const StyledHeading = styled.div`
   display: flex;
   align-items: center;
+  .controls {
+    @media (max-width: 411px) {
+      display: none;
+    }
+  }
 `
 
 const StyledTitle = styled.p`
@@ -11,6 +16,7 @@ const StyledTitle = styled.p`
   text-transform: uppercase;
   font-weight: bold;
   padding-right: 15px;
+  margin-bottom: 10px;
 `
 
 const StyledLine = styled.div`
@@ -18,6 +24,9 @@ const StyledLine = styled.div`
   display: flex;
   flex-grow: 1;
   height: 2px;
+  @media (max-width: 411px) {
+    display: none;
+  }
 `
 
 const HeadingListAlbum = ({ title }) => {
@@ -25,8 +34,10 @@ const HeadingListAlbum = ({ title }) => {
     <StyledHeading>
       <StyledTitle>{title}</StyledTitle>
       <StyledLine></StyledLine>
-      <IoIosArrowBack style={{ marginLeft: '10px', color: '#5955d5', cursor: 'pointer' }} />
-      <IoIosArrowForward style={{ color: '#5955d5', cursor: 'pointer' }} />
+      <div className="controls">
+        <IoIosArrowBack style={{ marginLeft: '10px', color: '#5955d5', cursor: 'pointer' }} />
+        <IoIosArrowForward style={{ color: '#5955d5', cursor: 'pointer' }} />
+      </div>
     </StyledHeading>
   )
 }

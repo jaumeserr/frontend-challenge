@@ -1,17 +1,18 @@
 import styled from 'styled-components';
 
 const StyledCard = styled.div`
-  width: 150px;
   text-align: center;
-  margin: 0 20px;
+  margin: 0 30px;
   height: 220px;
+  @media (max-width: 411px) {
+    margin-bottom: 20px;
+  }
   img {
-    width: 150px;
-    height: 150px;
+    width: 170px;
     border-radius: 10px;
   }
   p {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 10px;
   }
 `

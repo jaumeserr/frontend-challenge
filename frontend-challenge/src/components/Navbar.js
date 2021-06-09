@@ -14,6 +14,7 @@ const StyledNavbar = styled.nav`
   background-color: #5854d5;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  width: 200px;
   ul {
     padding-bottom: 30px;
   }

@@ -8,6 +8,8 @@ const StyledPlayer = styled.div`
   display: flex;
   border-radius: 10px;
   width: 100%;
+  box-shadow: 1px 1px 4px 3px rgba(0,0,0,0.15);
+  background-color: white;
 `
 
 const Player = () => {

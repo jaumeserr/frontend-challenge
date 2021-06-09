@@ -12,6 +12,8 @@ const StyledPlayLists = styled.section`
   width: 100%;
   background-color: white;
   border-bottom-right-radius: 10px;
+  height: calc(100vh - 195px);
+  overflow-y: scroll;
 `
 
 const PlayLists = () => {
@@ -42,9 +44,9 @@ const PlayLists = () => {
       <HeadingListAlbum title='Released this week' />
       <ListOfAlbums albums={released} />
       <HeadingListAlbum title='Featured playlist' />
-      {/* <ListOfAlbums albums={featured} /> */}
+      <ListOfAlbums albums={featured} />
       <HeadingListAlbum title='Browse' />
-      {/* <ListOfAlbums albums={categories} /> */}
+      <ListOfAlbums albums={categories} />
     </StyledPlayLists>
   )
 }
