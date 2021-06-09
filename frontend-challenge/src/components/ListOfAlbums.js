@@ -6,7 +6,7 @@ const StyledListOfAlbums = styled.div`
   display: flex;
   overflow-x: scroll;
   margin-bottom: 70px;
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     width: 230px;
     height: 220px;
     flex-direction: column;

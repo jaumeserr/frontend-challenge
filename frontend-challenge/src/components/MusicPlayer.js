@@ -34,7 +34,7 @@ const StyledPlayerSong = styled.div`
     border-radius: 5px;
     margin-right: 20px;
   }
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     display: none
   }
 `
@@ -43,7 +43,7 @@ const StyledPlayerControls = styled.div`
   display: flex;
   align-items: center;
   width: 200px;
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     margin-right: 20px
   }
 `
@@ -53,7 +53,7 @@ const StyledPlayerProgress = styled.div`
   height: 4px;
   display: flex;
   flex-grow: 1;
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     width: 100%;
   }
 `
@@ -64,14 +64,14 @@ const StyledPlayerOptions = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     display: none
   }
 `
 
 const StyledPlayerOptionsResponsive = styled.div`
   display: none;
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     display: block;
     margin-left: 20px;
   }

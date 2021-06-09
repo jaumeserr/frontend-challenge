@@ -6,7 +6,7 @@ const StyledHeading = styled.div`
   align-items: center;
   margin-bottom: 30px;
   .controls {
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       display: none;
     }
   }
@@ -24,7 +24,7 @@ const StyledLine = styled.div`
   display: flex;
   flex-grow: 1;
   height: 2px;
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     display: none;
   }
 `

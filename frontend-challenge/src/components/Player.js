@@ -10,7 +10,7 @@ const StyledPlayer = styled.div`
   width: calc(100vw - 220px);
   box-shadow: 1px 1px 4px 3px rgba(0,0,0,0.15);
   background-color: white;
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     width: 100%;
   }
 `

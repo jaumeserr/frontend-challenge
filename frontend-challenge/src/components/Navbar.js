@@ -17,11 +17,11 @@ const StyledNavbar = styled.nav`
   }
   svg {
     margin-right: 10px;
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       margin-right: 0;
     }
   }
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     width: 100px;
   }
 `
@@ -38,12 +38,12 @@ const StyledAvatar = styled.div`
     width: 70px;
     border-radius: 50%;
     margin: 40px 0 10px 0;
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       width: 50px;
     }
   }
   p {
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       display: none;
     }
   }
@@ -60,12 +60,12 @@ const StyledListItem = styled.li`
   img {
     width: 18px;
     margin-right: 10px;
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       width: 22px;
       margin-right:0;
     }
   }
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     justify-content: center;
     padding: 20px;
   }
@@ -74,7 +74,7 @@ const StyledListItem = styled.li`
     background: linear-gradient(to right, #7976da, #5854d5);
   }
   span {
-    @media (max-width: 411px) {
+    @media (max-width: 414px) {
       display: none;
     }
   } 

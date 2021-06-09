@@ -14,7 +14,7 @@ const StyledPlayLists = styled.section`
   border-bottom-right-radius: 10px;
   height: calc(100vh - 195px);
   overflow-y: scroll;
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     width: 100%;
   }
 `

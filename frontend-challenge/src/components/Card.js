@@ -4,7 +4,7 @@ const StyledCard = styled.div`
   text-align: center;
   margin: 0 30px;
   height: 220px;
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     margin-bottom: 20px;
   }
   img {

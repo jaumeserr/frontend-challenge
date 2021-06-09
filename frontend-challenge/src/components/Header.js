@@ -13,7 +13,7 @@ const StyledHeader = styled.header`
   justify-content: center;
   padding: 50px;
   border-top-right-radius: 10px;
-  @media (max-width: 411px) {
+  @media (max-width: 414px) {
     align-items: center;
     text-align: center;
     padding: 30px;
