@@ -11,6 +11,7 @@ const StyledPlayLists = styled.section`
   overflow: hidden;
   width: 100%;
   background-color: white;
+  border-bottom-right-radius: 10px;
 `
 
 const PlayLists = () => {

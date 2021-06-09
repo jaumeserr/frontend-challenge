@@ -2,6 +2,11 @@ import styled from 'styled-components';
 import { FaHeadphonesAlt, FaSearch, FaHeart, FaPlayCircle } from 'react-icons/fa';
 import { IoMdList } from 'react-icons/io';
 import Avatar from '../assets/img_avatar.png'
+import Headphones from '../assets/headphones.svg'
+import Search from '../assets/search.svg'
+import Heart from '../assets/heart.svg'
+import Play from '../assets/play.svg'
+import List from '../assets/list.svg'
 
 const StyledNavbar = styled.nav`
   display: flex;
@@ -53,6 +58,15 @@ const StyledListItem = styled.li`
   padding: 20px;
   color: white;
   font-weight: bold;
+  font-size: 14px;
+  img {
+    width: 18px;
+    margin-right: 10px;
+    @media (max-width: 411px) {
+      width: 22px;
+      margin-right:0;
+    }
+  }
   @media (max-width: 411px) {
     justify-content: center;
   }
@@ -76,19 +90,19 @@ const Navbar = () => {
       </StyledAvatar>
       <ul>
         <StyledListItem>
-          <FaHeadphonesAlt /><span>Discover</span>
+          <img src={Headphones} /><span>Discover</span>
         </StyledListItem>
         <StyledListItem>
-          <FaSearch /><span>Search</span>
+          <img src={Search} /><span>Search</span>
         </StyledListItem>
         <StyledListItem>
-          <FaHeart /><span>Favourites</span>
+          <img src={Heart} /><span>Favourites</span>
         </StyledListItem>
         <StyledListItem>
-          <FaPlayCircle /><span>Playlist</span>
+        <img src={Play} /><span>Playlist</span>
         </StyledListItem>
         <StyledListItem>
-          <IoMdList /><span>Charts</span>
+        <img src={List} /><span>Charts</span>
         </StyledListItem>
       </ul>
     </StyledNavbar>
