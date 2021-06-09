@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import { FaHeadphonesAlt, FaSearch, FaHeart, FaPlayCircle } from 'react-icons/fa';
-import { IoMdList } from 'react-icons/io';
 import Avatar from '../assets/img_avatar.png'
 import Headphones from '../assets/headphones.svg'
 import Search from '../assets/search.svg'
@@ -14,7 +12,6 @@ const StyledNavbar = styled.nav`
   background-color: #5854d5;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  width: 200px;
   ul {
     padding-bottom: 30px;
   }
@@ -56,7 +53,7 @@ const StyledListItem = styled.li`
   display: flex;
   align-items: center;
   cursor: pointer;
-  padding: 20px;
+  padding: 20px 60px 20px 40px;
   color: white;
   font-weight: bold;
   font-size: 14px;
@@ -70,6 +67,7 @@ const StyledListItem = styled.li`
   }
   @media (max-width: 411px) {
     justify-content: center;
+    padding: 20px;
   }
   &:hover{
     background-color: violet;
@@ -91,19 +89,19 @@ const Navbar = () => {
       </StyledAvatar>
       <ul>
         <StyledListItem>
-          <img src={Headphones} /><span>Discover</span>
+          <img src={Headphones} alt="Music" /><span>Discover</span>
         </StyledListItem>
         <StyledListItem>
-          <img src={Search} /><span>Search</span>
+          <img src={Search} alt="Search" /><span>Search</span>
         </StyledListItem>
         <StyledListItem>
-          <img src={Heart} /><span>Favourites</span>
+          <img src={Heart} alt="Favs" /><span>Favourites</span>
         </StyledListItem>
         <StyledListItem>
-        <img src={Play} /><span>Playlist</span>
+          <img src={Play} alt="Play" /><span>Playlist</span>
         </StyledListItem>
         <StyledListItem>
-        <img src={List} /><span>Charts</span>
+        <img src={List} alt="List" /><span>Charts</span>
         </StyledListItem>
       </ul>
     </StyledNavbar>

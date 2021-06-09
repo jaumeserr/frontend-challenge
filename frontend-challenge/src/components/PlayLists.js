@@ -9,11 +9,14 @@ import ListOfAlbums from './ListOfAlbums';
 const StyledPlayLists = styled.section`
   padding: 40px;
   overflow: hidden;
-  width: 100%;
+  width: calc(100vw - 220px);
   background-color: white;
   border-bottom-right-radius: 10px;
   height: calc(100vh - 195px);
   overflow-y: scroll;
+  @media (max-width: 411px) {
+    width: 100%;
+  }
 `
 
 const PlayLists = () => {

@@ -4,6 +4,7 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 const StyledHeading = styled.div`
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
   .controls {
     @media (max-width: 411px) {
       display: none;
@@ -16,7 +17,6 @@ const StyledTitle = styled.p`
   text-transform: uppercase;
   font-weight: bold;
   padding-right: 15px;
-  margin-bottom: 10px;
 `
 
 const StyledLine = styled.div`

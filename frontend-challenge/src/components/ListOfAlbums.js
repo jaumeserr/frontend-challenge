@@ -5,11 +5,12 @@ const StyledListOfAlbums = styled.div`
   width: 100%;
   display: flex;
   overflow-x: scroll;
-  margin-bottom:  0px;
+  margin-bottom: 70px;
   @media (max-width: 411px) {
     width: 230px;
     height: 220px;
     flex-direction: column;
+    margin-bottom: 30px;
   }
 `
 
