@@ -3,9 +3,10 @@ import Card from './Card'
 
 const StyledListOfAlbums = styled.div`
   display: flex;
-  width: 100%;
+  width: 200px;
   overflow: scroll;
-  margin: 20px 0 40px 0;
+  background-color: red;
+  /* margin: 20px 0 40px 0; */
 `
 
 const ListOfAlbums = ({ albums }) => {

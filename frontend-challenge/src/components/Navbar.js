@@ -9,23 +9,40 @@ const StyledNavbar = styled.nav`
   background-color: #5854d5;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  width: 250px;
+  ul {
+    padding-bottom: 30px;
+  }
+  svg {
+    margin-right: 10px;
+    @media (max-width: 411px) {
+      margin-right: 0;
+    }
+  }
+  @media (max-width: 411px) {
+    width: 100px;
+  }
 `
 
 const StyledAvatar = styled.div`
-  height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
+  font-size: 14px;
+  margin-bottom: 30px;
   img {
     width: 70px;
     border-radius: 50%;
-    margin-bottom: 5px;
-    @media (max-width: 320px) {
+    margin: 40px 0 10px 0;
+    @media (max-width: 411px) {
       width: 50px;
-    } 
+    }
+  }
+  p {
+    @media (max-width: 411px) {
+      display: none;
+    }
   }
 `
 
@@ -33,22 +50,19 @@ const StyledListItem = styled.li`
   display: flex;
   align-items: center;
   cursor: pointer;
-  padding: 20px 20px 20px 40px;
+  padding: 20px;
   color: white;
   font-weight: bold;
-  width: 220px;
-  @media (max-width: 320px) {
-    padding: 20px;
-  } 
+  @media (max-width: 411px) {
+    justify-content: center;
+  }
   &:hover{
     background-color: violet;
     background: linear-gradient(to right, #7976da, #5854d5);
   }
   span {
-    padding-left: 10px;
-    @media (max-width: 320px) {
+    @media (max-width: 411px) {
       display: none;
-      padding-left: 0;
     }
   } 
 `

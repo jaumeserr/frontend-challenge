@@ -10,11 +10,14 @@ const StyledHeader = styled.header`
   color: white;
   display: flex;
   flex-direction: column;
-  height: 200px;
   justify-content: center;
   padding: 30px 50px 30px 30px;
-  width: 100%;
   border-top-right-radius: 10px;
+  @media (max-width: 411px) {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+  }
 `
 
 const StyledSubtitle = styled.h2`

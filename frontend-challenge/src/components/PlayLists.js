@@ -8,7 +8,9 @@ import ListOfAlbums from './ListOfAlbums';
 
 const StyledPlayLists = styled.section`
   padding: 40px;
-  overflow-y: scroll;
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
 `
 
 const PlayLists = () => {
@@ -39,9 +41,9 @@ const PlayLists = () => {
       <HeadingListAlbum title='Released this week' />
       <ListOfAlbums albums={released} />
       <HeadingListAlbum title='Featured playlist' />
-      <ListOfAlbums albums={featured} />
+      {/* <ListOfAlbums albums={featured} /> */}
       <HeadingListAlbum title='Browse' />
-      <ListOfAlbums albums={categories} />
+      {/* <ListOfAlbums albums={categories} /> */}
     </StyledPlayLists>
   )
 }

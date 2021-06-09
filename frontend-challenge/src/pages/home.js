@@ -4,25 +4,25 @@ import Header from '../components/Header';
 import PlayLists from '../components/PlayLists';
 import Navbar from '../components/Navbar';
 import Player from '../components/Player';
-import { Flex } from '../UI';
+// import { Flex } from '../UI';
 
 const StyledHome = styled.main`
   border-radius: 10px;
-  margin: 20px;
-  display: flex;
-  width: calc(100% - 260px);
-  height: 1000px;
+  padding: 10px;
 `
 
 const HomePage = () => {
   return(
+    // <StyledHome>
+    //   <Navbar />
+    //   {/* <div>
+    //     <Header />
+    //     <PlayLists />
+    //     <Player />
+    //   </div> */}
+    // </StyledHome>
     <StyledHome>
-      <Navbar />
-      <Flex>
-        <Header />
-        <PlayLists />
-        <Player />
-      </Flex>
+      <Player />
     </StyledHome>
   )
 }
