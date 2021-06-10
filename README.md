@@ -1,41 +1,27 @@
-# Tech-Frontend-Challenge
+# CHALLENGE GADDEX
 
-# First Step
-- Choose one of this technologies to develop the test challenge:
-  - Angular X
-  - React
+* Build a simple spotify to fetch data from 3 endpoints.
+* We need to authenticate and authorize service.
+* Version desktop and responsive.
+* Deploy in github pages
 
-# To Keep in mind ✨
-  - Use a good architecture 
-  - Add some tests to check how do you work with that
-  - Keep in mind SOLID principies
-  - Fork this project and upload your test to Github, to check how do you work with Git
-  - Link to the deployed Demo, use your favorite static site hosting platform (surge, github-pages, now, ...)
-  - The app should run on any computer by running npm install , npm test and have a demo online.
-  - We'll evaluate the exercise by looking commits and test passed.
+## TECHNOLOGIES USED
 
-# Requirements 📖
-- Fetch and display *Released This Week* songs
-  - Use the API path `new-releases`
-- Fetch and display *Featured Playlists*
-  - Use the API path `featured-playlists`
-- Fetch and display *Browse* genres
-  - Use the API path `categories`
+* HTML5
+* CSS3
+* JavaScript
+* Styled Components
+* React
+* Git
+* Github
 
-# Think about 💡
-- Taking a look at the Spotify API documentation
-- Do you resolve each API request one after the other or in parallel?
-- Where do you make the API requests?
+## COMPONENTS DIAGRAM
+![Components Diagram](https://i.ibb.co/hgyNPq0/Components-diagram.jpg)
 
-# Resources API
-- https://developer.spotify.com/documentation/web-api/
-- You can choos to use a library o make the request by your own
+## SCREENSHOTS
+![Desktop Version](https://i.ibb.co/p0fk0ch/Captura-de-pantalla-2021-06-10-a-las-22-34-16.png)
+![Mobile Version](https://i.ibb.co/Wy4042x/Captura-de-pantalla-2021-06-10-a-las-22-34-50.png)
 
-# Screenshots 🌄
-You can choose you favorite design and develop a beautifull UI/UX, here you have one example but you can choose other.
-
-# This project should be production ready. 
-
-![screenshot-desktop](https://puu.sh/GwPLE/3be580156a.png)
-![screenshot-mobile](https://puu.sh/GwPLS/0bcb566d23.png)
-
+## INSTALL
+1. Download code from github
+2. Change REACT_APP_REDIRECT_URL=http://localhost:3000/redirect in .ENV files for work with the project. If not, the project will continue  redirected to deployed project (github pages).
