@@ -29,11 +29,9 @@ const PlayLists = () => {
   const token = hash[0].substring(14)
 
   const getSongs = async () => {
-    const listReleased = await getNewReleasedSongs(token)
+    const [listReleased, listFeatured, listCategories] = await Promise.all([getNewReleasedSongs(token),  getFeaturedSongs(token), getCategories(token)])
     setReleased(listReleased)
-    const listFeatured = await getFeaturedSongs(token)
     setFeatured(listFeatured)
-    const listCategories = await getCategories(token)
     setCategories(listCategories)
   }
 
