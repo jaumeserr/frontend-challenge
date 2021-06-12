@@ -18,7 +18,7 @@ const ListOfAlbums = ({ albums }) => {
   return(
     <StyledListOfAlbums>
       {
-        albums && albums.map((album) => <Card key={album.id} {...album} />)
+        albums && albums.map((album) => <Card key={album.id} album={album} />)
       }
     </StyledListOfAlbums>
   );

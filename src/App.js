@@ -20,7 +20,7 @@ function App() {
     <Router>
       <div>
         {
-          token ? <HomePage /> : <Login onclick={handleLogin} />
+          token ? <HomePage /> : <Login login={handleLogin} />
         }
       </div>
     </Router>
