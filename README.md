@@ -1,12 +1,13 @@
 # CHALLENGE GADDEX
-
 * Build a simple spotify to fetch data from 3 endpoints.
 * We need to authenticate and authorize service.
 * Version desktop and responsive.
 * Deploy in github pages
 
-## TECHNOLOGIES USED
+## DEMO
+[Demo](https://jaumeserr.github.io/frontend-challenge/)
 
+## TECHNOLOGIES USED
 * HTML5
 * CSS3
 * JavaScript
