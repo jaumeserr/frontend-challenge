@@ -7,7 +7,6 @@ import PlayLists from './PlayLists';
 const StyledPlayer = styled.div`
   display: flex;
   border-radius: 10px;
-  width: calc(100vw - 220px);
   box-shadow: 1px 1px 4px 3px rgba(0,0,0,0.15);
   background-color: white;
   @media (max-width: 414px) {
@@ -19,7 +18,7 @@ const Player = () => {
   return(
     <StyledPlayer>
       <Navbar />
-      <div style={{ position: 'relative' }}>
+      <div style={{ position: 'relative', width: '100%' }}>
         <Header />
         <PlayLists />
         <MusicPlayer />

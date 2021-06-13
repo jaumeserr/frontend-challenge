@@ -9,7 +9,7 @@ import ListOfAlbums from './ListOfAlbums';
 const StyledPlayLists = styled.section`
   padding: 40px;
   overflow: hidden;
-  width: calc(100vw - 220px);
+  width: calc(100vw - 240px);
   background-color: white;
   border-bottom-right-radius: 10px;
   height: calc(100vh - 195px);

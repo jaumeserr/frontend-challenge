@@ -6,11 +6,16 @@ const StyledListOfAlbums = styled.div`
   display: flex;
   overflow-x: scroll;
   margin-bottom: 70px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
   @media (max-width: 414px) {
     width: 230px;
     height: 220px;
     flex-direction: column;
     margin-bottom: 30px;
+  }
+  &::-webkit-scrollbar{
+    display: none;
   }
 `
 
