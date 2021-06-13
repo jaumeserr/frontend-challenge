@@ -3,11 +3,10 @@ import Login from './pages/login'
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
-  const {
-    REACT_APP_CLIENT_ID,
-    REACT_APP_AUTHORIZE_URL,
-    REACT_APP_REDIRECT_URL
-  } = process.env;
+  const REACT_APP_CLIENT_ID = 'd12ad17372654b8cb68c57aa07b5a427'
+  const REACT_APP_AUTHORIZE_URL = 'https://accounts.spotify.com/authorize'
+  const REACT_APP_REDIRECT_URL = 'https://jaumeserr.github.io/frontend-challenge/'
+
 
   const hash = window.location.hash.split('&')
   const token = hash[0].substring(14)
