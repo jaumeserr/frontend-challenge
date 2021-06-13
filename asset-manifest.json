@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/frontend-challenge/static/css/main.e5da5298.chunk.css",
-    "main.js": "/frontend-challenge/static/js/main.e9207708.chunk.js",
-    "main.js.map": "/frontend-challenge/static/js/main.e9207708.chunk.js.map",
+    "main.js": "/frontend-challenge/static/js/main.3ea3c575.chunk.js",
+    "main.js.map": "/frontend-challenge/static/js/main.3ea3c575.chunk.js.map",
     "runtime-main.js": "/frontend-challenge/static/js/runtime-main.fd994e13.js",
     "runtime-main.js.map": "/frontend-challenge/static/js/runtime-main.fd994e13.js.map",
-    "static/js/2.6943569e.chunk.js": "/frontend-challenge/static/js/2.6943569e.chunk.js",
-    "static/js/2.6943569e.chunk.js.map": "/frontend-challenge/static/js/2.6943569e.chunk.js.map",
+    "static/js/2.e61411f8.chunk.js": "/frontend-challenge/static/js/2.e61411f8.chunk.js",
+    "static/js/2.e61411f8.chunk.js.map": "/frontend-challenge/static/js/2.e61411f8.chunk.js.map",
     "static/js/3.27b04848.chunk.js": "/frontend-challenge/static/js/3.27b04848.chunk.js",
     "static/js/3.27b04848.chunk.js.map": "/frontend-challenge/static/js/3.27b04848.chunk.js.map",
     "index.html": "/frontend-challenge/index.html",
     "static/css/main.e5da5298.chunk.css.map": "/frontend-challenge/static/css/main.e5da5298.chunk.css.map",
-    "static/js/2.6943569e.chunk.js.LICENSE.txt": "/frontend-challenge/static/js/2.6943569e.chunk.js.LICENSE.txt",
+    "static/js/2.e61411f8.chunk.js.LICENSE.txt": "/frontend-challenge/static/js/2.e61411f8.chunk.js.LICENSE.txt",
     "static/media/Spotify-logo.555c66e1.png": "/frontend-challenge/static/media/Spotify-logo.555c66e1.png",
     "static/media/background.f2d1f668.jpg": "/frontend-challenge/static/media/background.f2d1f668.jpg",
     "static/media/headphones.6b34d41b.svg": "/frontend-challenge/static/media/headphones.6b34d41b.svg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fd994e13.js",
-    "static/js/2.6943569e.chunk.js",
+    "static/js/2.e61411f8.chunk.js",
     "static/css/main.e5da5298.chunk.css",
-    "static/js/main.e9207708.chunk.js"
+    "static/js/main.3ea3c575.chunk.js"
   ]
 }
