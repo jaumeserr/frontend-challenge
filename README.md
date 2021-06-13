@@ -35,7 +35,4 @@
 4. Authorize and login with your Spotify Account.
 5. Enjoy!
 
-***
-
-**FOR TESTING PURPOSE**: Change url to http://localhost:3000/redirect/. If not, the project will continue redirected to deployed project (github pages).
 
