@@ -12,7 +12,7 @@ const StyledPlayLists = styled.section`
   width: calc(100vw - 240px);
   background-color: white;
   border-bottom-right-radius: 10px;
-  height: calc(100vh - 195px);
+  height: calc(100vh - 198px);
   overflow-y: scroll;
   @media (max-width: 414px) {
     width: 100%;
