@@ -4,7 +4,7 @@ import '@testing-library/jest-dom/extend-expect';
 
 import App from '../App'
 
-test('handleLogin function is execute', () => {
+test('App Component is rendered', () => {
   render(<App />)
   expect(screen.getByText(/Authorize/i)).toBeInTheDocument();
 })
