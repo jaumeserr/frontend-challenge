@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   const REACT_APP_CLIENT_ID = 'd12ad17372654b8cb68c57aa07b5a427'
   const REACT_APP_AUTHORIZE_URL = 'https://accounts.spotify.com/authorize'
-  const REACT_APP_REDIRECT_URL = 'https://localhost:3000/redirect/'
+  const REACT_APP_REDIRECT_URL = 'http://localhost:3000/redirect/'
 
 
   const hash = window.location.hash.split('&')
